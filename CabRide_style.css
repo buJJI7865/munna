@@ -167,7 +167,7 @@ html{
     box-shadow: 3px 3px 3px grey;
     border-radius: 5px;
 }
-.search-cabs{
+.inner-content.search-cabs{
     padding-top: 2rem;
     background-color: black;
     color: white;
