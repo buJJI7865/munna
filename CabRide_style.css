@@ -173,7 +173,7 @@ html{
 /* styles.css */
 
 /* Define the style for the button with the class 'search-button' */
-.search-cabs button {
+.search-cabs{
     background-color: black;
     color: white;
 }
