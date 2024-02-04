@@ -39,28 +39,33 @@
                 <p>To travel with the lowest fares choose CarRide Share. For a faster travel experience we have Share Express on some fixed routes with zero deviations. Choose your ride and zoom away!</p>
                 <a href="#" class="booknow">book now</a>
             </div>
-            <div class="inner-content">
-                <div class="contact-form">
-                    <div class="form-heading">
-                        <h1>book a cab</h1>
-                    </div>
-                    <div class="form-fields">
-                        <input type="text" placeholder="name">
-                        <input type="number" placeholder="phone">
-                        <input type="text" placeholder="date">
-                        <input type="text" placeholder="when">
-                        <input type="text" placeholder="pickup location">
-                        <input type="text" placeholder="drop location">
-                    </div>
-                    <div class="search-cabs">
-                        <a href="#">Search cabs</a>
-                    </div>
-                    
-                </div>
+<div class="inner-content">
+    <div class="contact-form">
+       
+        <div class="form-heading">
+            <h1>book a cab</h1>
+        </div>
+        <form action="https://sheetdb.io/api/v1/owl5umh1r9ste" method="POST" id="sheetdb-form">
+            <div class="form-fields">
+                <input type="text" name="name" placeholder="name">
+                <input type="number" name="phone" placeholder="phone">
+                <input type="text" name="date" placeholder="date">
+                <input type="text" name="when" placeholder="when">
+                <input type="text" name="pickup_location" placeholder="pickup location">
+                <input type="text" name="drop_location" placeholder="drop location">
+            </div>
+            
+           <div class="search-cabs">
+               <button type="submit">Search cabs</button>
+           </div>
+
+
+                <script src="script.js"></script>
                 
             </div>
-        </div>
+        </form>
     </div>
+</div>
 
 
     <div class="fast-booking">
