@@ -170,6 +170,13 @@ html{
 .search-cabs{
     padding-top: 2rem;
 }
+/* styles.css */
+
+/* Define the style for the button with the class 'search-button' */
+.search-cabs button {
+    background-color: black;
+    color: white;
+}
 
 .fast-booking{
     background: url(./secbg.png);
