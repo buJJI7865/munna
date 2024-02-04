@@ -374,3 +374,12 @@ html{
         text-align: center;
     }
 }
+/* CabRide_style.css */
+
+.search-cabs button.search-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+}
