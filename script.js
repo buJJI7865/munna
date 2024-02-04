@@ -5,7 +5,7 @@ menubar.onclick = () =>{
     menubar.classList.toggle('fa-times');
     mynav.classList.toggle('active');
 }
-<script>
+
             var form = document.getElementById('sheetdb-form');
         form.addEventListener("submit", e => {
           e.preventDefault();
@@ -20,4 +20,4 @@ menubar.onclick = () =>{
 
           });
         });
-        </script>
+     
